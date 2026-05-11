@@ -1,0 +1,314 @@
+[2026-04-21 15:35:39 INF] Checking database connection... {"SourceContext":"Program"}
+[2026-04-21 15:35:41 INF] Database ready. Running seed data... {"SourceContext":"Program"}
+[2026-04-21 15:35:41 INF] Database initialization completed successfully {"SourceContext":"Program"}
+[2026-04-21 15:35:41 INF] AuthService API is running at http://localhost:5156. Health endpoint: http://localhost:5156/health {"SourceContext":"Program"}
+[2026-04-21 15:37:17 INF] HTTP OPTIONS /api/V1/auth/login responded 204 in 24.5311 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TB:00000001","ConnectionId":"0HNKVTOKB84TB"}
+[2026-04-21 15:37:19 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"50e94dbb-9241-4c49-9bf5-6875c316eba8","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNKVTOKB84TB:00000002","RequestPath":"/api/V1/auth/login","ConnectionId":"0HNKVTOKB84TB"}
+[2026-04-21 15:37:20 INF] HTTP POST /api/V1/auth/login responded 200 in 3170.7416 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TB:00000002","ConnectionId":"0HNKVTOKB84TB"}
+[2026-04-21 15:37:22 INF] HTTP OPTIONS /api/V1/auth/users responded 204 in 0.9700 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TB:00000003","ConnectionId":"0HNKVTOKB84TB"}
+[2026-04-21 15:37:23 INF] HTTP GET /api/V1/auth/users responded 200 in 453.4737 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TB:00000004","ConnectionId":"0HNKVTOKB84TB"}
+[2026-04-21 15:37:29 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"50e94dbb-9241-4c49-9bf5-6875c316eba8","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNKVTOKB84TB:00000005","RequestPath":"/api/V1/auth/login","ConnectionId":"0HNKVTOKB84TB"}
+[2026-04-21 15:37:29 INF] HTTP POST /api/V1/auth/login responded 200 in 480.0061 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TB:00000005","ConnectionId":"0HNKVTOKB84TB"}
+[2026-04-21 15:37:38 INF] HTTP GET /api/V1/auth/users responded 200 in 24.8818 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TB:00000006","ConnectionId":"0HNKVTOKB84TB"}
+[2026-04-21 15:45:59 INF] HTTP GET /api/V1/auth/users responded 200 in 38.0412 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TC:00000001","ConnectionId":"0HNKVTOKB84TC"}
+[2026-04-21 15:46:01 INF] HTTP GET /api/V1/auth/users responded 200 in 14.3071 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TC:00000002","ConnectionId":"0HNKVTOKB84TC"}
+[2026-04-21 15:50:57 INF] HTTP OPTIONS /api/V1/auth/users responded 204 in 0.7813 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TE:00000001","ConnectionId":"0HNKVTOKB84TE"}
+[2026-04-21 15:50:57 INF] HTTP GET /api/V1/auth/users responded 200 in 17.6174 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TE:00000002","ConnectionId":"0HNKVTOKB84TE"}
+[2026-04-21 16:01:06 INF] HTTP OPTIONS /api/V1/auth/users responded 204 in 0.1702 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TF:00000001","ConnectionId":"0HNKVTOKB84TF"}
+[2026-04-21 16:01:06 INF] HTTP GET /api/V1/auth/users responded 401 in 15.8535 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TF:00000002","ConnectionId":"0HNKVTOKB84TF"}
+[2026-04-21 16:04:41 INF] HTTP GET /api/V1/auth/users responded 401 in 2.2894 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TG:00000001","ConnectionId":"0HNKVTOKB84TG"}
+[2026-04-21 16:05:44 INF] HTTP GET /api/V1/auth/users responded 401 in 0.7297 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TG:00000002","ConnectionId":"0HNKVTOKB84TG"}
+[2026-04-21 16:05:49 INF] HTTP GET /api/V1/auth/users responded 401 in 0.8383 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TG:00000003","ConnectionId":"0HNKVTOKB84TG"}
+[2026-04-21 16:05:57 INF] HTTP OPTIONS /api/V1/auth/login responded 204 in 0.1640 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TG:00000004","ConnectionId":"0HNKVTOKB84TG"}
+[2026-04-21 16:05:57 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"50e94dbb-9241-4c49-9bf5-6875c316eba8","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNKVTOKB84TG:00000005","RequestPath":"/api/V1/auth/login","ConnectionId":"0HNKVTOKB84TG"}
+[2026-04-21 16:05:57 INF] HTTP POST /api/V1/auth/login responded 200 in 170.3266 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TG:00000005","ConnectionId":"0HNKVTOKB84TG"}
+[2026-04-21 16:05:59 INF] HTTP GET /api/V1/auth/users responded 200 in 26.6618 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TG:00000006","ConnectionId":"0HNKVTOKB84TG"}
+[2026-04-21 16:32:33 INF] HTTP OPTIONS /api/V1/auth/users responded 204 in 0.1144 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TH:00000001","ConnectionId":"0HNKVTOKB84TH"}
+[2026-04-21 16:32:33 INF] HTTP GET /api/V1/auth/users responded 401 in 0.5441 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TH:00000002","ConnectionId":"0HNKVTOKB84TH"}
+[2026-04-21 16:32:49 INF] HTTP OPTIONS /api/V1/auth/login responded 204 in 0.1903 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TH:00000003","ConnectionId":"0HNKVTOKB84TH"}
+[2026-04-21 16:32:49 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"50e94dbb-9241-4c49-9bf5-6875c316eba8","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNKVTOKB84TH:00000004","RequestPath":"/api/V1/auth/login","ConnectionId":"0HNKVTOKB84TH"}
+[2026-04-21 16:32:49 INF] HTTP POST /api/V1/auth/login responded 200 in 232.8671 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TH:00000004","ConnectionId":"0HNKVTOKB84TH"}
+[2026-04-21 16:35:39 INF] HTTP GET /api/V1/auth/users responded 200 in 29.7512 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TI:00000001","ConnectionId":"0HNKVTOKB84TI"}
+[2026-04-21 16:37:23 INF] HTTP GET /api/V1/auth/users responded 200 in 14.9154 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TI:00000002","ConnectionId":"0HNKVTOKB84TI"}
+[2026-04-21 16:40:55 INF] HTTP GET /api/V1/auth/users responded 200 in 68.8324 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TJ:00000001","ConnectionId":"0HNKVTOKB84TJ"}
+[2026-04-21 16:41:10 INF] HTTP GET /api/V1/auth/users responded 200 in 8.3117 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TJ:00000002","ConnectionId":"0HNKVTOKB84TJ"}
+[2026-04-21 16:41:23 INF] HTTP OPTIONS /api/V1/auth/users/usr_9VJCVsB1Ypns/role responded 204 in 0.1531 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TJ:00000003","ConnectionId":"0HNKVTOKB84TJ"}
+[2026-04-21 16:41:23 INF] HTTP PUT /api/V1/auth/users/usr_9VJCVsB1Ypns/role responded 404 in 0.7935 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TJ:00000004","ConnectionId":"0HNKVTOKB84TJ"}
+[2026-04-21 16:43:45 INF] HTTP OPTIONS /api/V1/auth/users responded 204 in 0.3827 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000001","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:43:45 INF] HTTP GET /api/V1/auth/users responded 200 in 14.2994 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000002","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:43:49 INF] HTTP PUT /api/V1/auth/users/usr_9VJCVsB1Ypns/role responded 404 in 0.9082 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000003","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:44:19 INF] HTTP GET /api/V1/auth/users responded 200 in 14.7550 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000004","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:44:22 INF] HTTP PUT /api/V1/auth/users/usr_9VJCVsB1Ypns/role responded 404 in 0.5646 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000005","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:45:51 INF] HTTP GET /api/V1/auth/users responded 200 in 20.0895 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000006","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:45:52 INF] HTTP GET /api/V1/auth/users responded 200 in 25.1345 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000007","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:45:55 INF] HTTP GET /api/V1/auth/users responded 200 in 20.1827 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000008","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:45:58 INF] HTTP GET /api/V1/auth/users responded 200 in 54.3290 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TK:00000009","ConnectionId":"0HNKVTOKB84TK"}
+[2026-04-21 16:46:11 INF] HTTP OPTIONS /api/V1/auth/login responded 204 in 0.2876 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000001","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:46:11 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"50e94dbb-9241-4c49-9bf5-6875c316eba8","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNKVTOKB84TL:00000002","RequestPath":"/api/V1/auth/login","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:46:11 INF] HTTP POST /api/V1/auth/login responded 200 in 178.1233 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000002","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:46:14 INF] HTTP GET /api/V1/auth/users responded 429 in 4.6712 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000003","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:46:26 INF] HTTP GET /api/V1/auth/users responded 429 in 0.5182 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000004","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:47:05 INF] HTTP GET /api/V1/auth/users responded 200 in 8.6207 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000005","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:47:10 INF] HTTP PUT /api/V1/auth/users/usr_9VJCVsB1Ypns/role responded 404 in 0.8758 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000006","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:48:34 INF] HTTP GET /api/V1/auth/users responded 200 in 6.2535 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000007","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:48:37 INF] HTTP GET /api/V1/auth/users responded 200 in 16.2209 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000008","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:50:17 INF] HTTP OPTIONS /api/V1/users/usr_9VJCVsB1Ypns/role responded 204 in 0.3837 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000009","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:50:17 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:0000000A","RequestPath":"/api/V1/users/usr_9VJCVsB1Ypns/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:50:17 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 400 in 126.9872 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:0000000A","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:50:23 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:0000000B","RequestPath":"/api/V1/users/usr_9VJCVsB1Ypns/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:50:23 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 400 in 32.3023 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:0000000B","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:50:31 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:0000000C","RequestPath":"/api/V1/users/usr_9VJCVsB1Ypns/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:50:31 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 400 in 27.1530 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:0000000C","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:51:59 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:0000000D","RequestPath":"/api/V1/users/usr_9VJCVsB1Ypns/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:51:59 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 400 in 90.9084 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:0000000D","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:52:51 INF] HTTP GET /api/V1/auth/users responded 200 in 22.9429 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:0000000E","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:52:57 INF] HTTP OPTIONS /api/V1/users/[object Object]/role responded 204 in 0.1048 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:0000000F","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:52:57 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:00000010","RequestPath":"/api/V1/users/%5Bobject%20Object%5D/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:52:57 INF] HTTP PUT /api/V1/users/[object Object]/role responded 400 in 29.7809 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000010","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:52:58 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:00000011","RequestPath":"/api/V1/users/%5Bobject%20Object%5D/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:52:58 INF] HTTP PUT /api/V1/users/[object Object]/role responded 400 in 28.6578 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000011","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:53:16 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:00000012","RequestPath":"/api/V1/users/%5Bobject%20Object%5D/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:53:16 INF] HTTP PUT /api/V1/users/[object Object]/role responded 400 in 23.6862 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000012","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:53:30 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:00000013","RequestPath":"/api/V1/users/%5Bobject%20Object%5D/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:53:30 INF] HTTP PUT /api/V1/users/[object Object]/role responded 400 in 14.5794 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000013","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:53:30 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:00000014","RequestPath":"/api/V1/users/%5Bobject%20Object%5D/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:53:30 INF] HTTP PUT /api/V1/users/[object Object]/role responded 400 in 28.1674 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000014","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:53:43 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TL:00000015","RequestPath":"/api/V1/users/%5Bobject%20Object%5D/role","ConnectionId":"0HNKVTOKB84TL"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:53:43 INF] HTTP PUT /api/V1/users/[object Object]/role responded 400 in 26.7242 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TL:00000015","ConnectionId":"0HNKVTOKB84TL"}
+[2026-04-21 16:56:44 INF] HTTP OPTIONS /api/V1/auth/users responded 204 in 0.0788 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000001","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:56:44 INF] HTTP GET /api/V1/auth/users responded 200 in 19.0261 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000002","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:56:47 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TM:00000003","RequestPath":"/api/V1/users/usr_9VJCVsB1Ypns/role","ConnectionId":"0HNKVTOKB84TM"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:56:47 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 400 in 29.1109 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000003","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:57:05 INF] HTTP GET /api/V1/auth/users responded 200 in 92.1107 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000004","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:57:07 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TM:00000005","RequestPath":"/api/V1/users/usr_9VJCVsB1Ypns/role","ConnectionId":"0HNKVTOKB84TM"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:57:07 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 400 in 28.5812 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000005","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:57:09 INF] HTTP GET /api/V1/auth/users responded 200 in 8.1203 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000006","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:57:12 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNKVTOKB84TM:00000007","RequestPath":"/api/V1/users/usr_9VJCVsB1Ypns/role","ConnectionId":"0HNKVTOKB84TM"}
+System.InvalidOperationException: Role not allowed. Use ADMIN_ROLE or USER_ROLE
+   at AuthService.Application.Services.UserManagementService.UpdateUserRoleAsync(String userId, String roleName) in D:\in6bv\KinalSports\auth-service\src\AuthService.Application\Services\UserManagementService.cs:line 19
+   at AuthService.Api.Controllers.UsersController.UpdateUserRole(String userId, UpdateUserRoleDto dto) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Controllers\UsersController.cs:line 32
+   at lambda_method739(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\in6bv\KinalSports\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-04-21 16:57:12 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 400 in 25.1359 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000007","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:59:08 INF] HTTP GET /api/V1/auth/users responded 200 in 14.6535 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000008","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:59:13 INF] HTTP GET /api/V1/auth/users responded 200 in 8.0702 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:00000009","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:59:16 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 200 in 192.2488 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:0000000A","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 16:59:27 INF] HTTP PUT /api/V1/users/usr_9VJCVsB1Ypns/role responded 200 in 129.5460 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TM:0000000B","ConnectionId":"0HNKVTOKB84TM"}
+[2026-04-21 17:56:06 INF] HTTP OPTIONS /api/V1/auth/users responded 204 in 0.1439 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TN:00000001","ConnectionId":"0HNKVTOKB84TN"}
+[2026-04-21 17:56:06 INF] HTTP GET /api/V1/auth/users responded 401 in 1.2169 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNKVTOKB84TN:00000002","ConnectionId":"0HNKVTOKB84TN"}
