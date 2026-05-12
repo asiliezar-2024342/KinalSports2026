@@ -1,4 +1,4 @@
-import Spinner from "../../../shared/components/ui/Spinner.jsx";
+import { Spinner } from "../../../shared/components/layout/Spinner.jsx";
 import defaultAvatarImg from "../../../assets/img/avatarDefault.png";
 import { useState } from "react";
 

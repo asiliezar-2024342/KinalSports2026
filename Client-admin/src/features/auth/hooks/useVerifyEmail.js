@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { verifyEmail as verifyEmailRequest } from "../../../shared/api/auth";
+import { verifyEmail as verifyEmailRequest } from "../../../shared/api";
 import { showError, showSuccess } from "../../../shared/utils/toast";
 
 // Evita múltiples requests en React StrictMode (montaje doble).

@@ -9,6 +9,14 @@ const axiosAuth = axios.create({
     }
 })
 
+const axiosAdmin = axios.create({
+    baseURL: import.meta.env.VITE_ADMIN_URL,
+    timeout: 10000,
+    headers: {
+        "Content-Type": "application/json"
+    }
+})
+
 axiosAuth.interceptors.request.use((config) => {
     //config._axiosClient = "auth"
     const token = useAuthStore.getState().token;
@@ -17,14 +25,6 @@ axiosAuth.interceptors.request.use((config) => {
     }
 
     return config;
-})
-
-const axiosAdmin = axios.create({
-    baseURL: import.meta.env.VITE_ADMIN_URL,
-    timeout: 10000,
-    headers: {
-        "Content-Type": "application/json"
-    }
 })
 
 axiosAdmin.interceptors.request.use((config) => {
@@ -36,6 +36,7 @@ axiosAdmin.interceptors.request.use((config) => {
 
     return config;
 })
+
 // ================= REFRESH TOKEN LOGIC =================
 let _isRefreshing = false;
 let failedQueue = [];
@@ -122,4 +123,6 @@ axiosAuth.interceptors.response.use((res) => res, handleRefreshToken);
 
 axiosAdmin.interceptors.response.use((res) => res, handleRefreshToken);
 
-export { axiosAuth, axiosAdmin, handleRefreshToken };
+export { axiosAuth, axiosAdmin }
+
+export { handleRefreshToken }

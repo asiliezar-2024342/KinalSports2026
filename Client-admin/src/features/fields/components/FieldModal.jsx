@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useSaveField } from "../hooks/useSaveField";
 import { useFieldStore } from "../store/useFieldStore";
-import  Spinner  from "../../../shared/components/ui/Spinner.jsx"
+import { Spinner } from "../../../shared/components/layout/Spinner.jsx"
 
 
 export const FieldModal = ({ isOpen, onClose, field }) => {
@@ -75,7 +75,7 @@ export const FieldModal = ({ isOpen, onClose, field }) => {
                     }}
                 >
                     <h2 className="text-xl sm:text-2xl font-bold">
-                        Nuevo Campo
+                        {field ? "Editar campo" : "Nuevo Campo"}
                     </h2>
                     <p className="text-xs sm:text-sm opacity-80">
                         Completa la información de la cancha
@@ -255,7 +255,7 @@ export const FieldModal = ({ isOpen, onClose, field }) => {
                         border: "none",
                     }}
                 >
-                    Crear campo
+                    { loading ? <Spinner/> : field ? "Guardar Cambios" : "Crear Campo"}
                 </button>
             </div>
         </form>

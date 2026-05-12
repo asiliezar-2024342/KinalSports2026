@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import Spinner  from "../../../shared/components/ui/Spinner.jsx";
+import { Spinner } from "../../../shared/components/layout/Spinner.jsx";
 
 export const CreateUserModal = ({
     isOpen,
@@ -237,4 +237,3 @@ export const CreateUserModal = ({
         </div>
     );
 };
-

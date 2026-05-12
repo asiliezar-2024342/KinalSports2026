@@ -1,2 +1,2 @@
-export * from './auth.js';
-export * from './admin.js';
+export * from "./auth";
+export * from "./admin";

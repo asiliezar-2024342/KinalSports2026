@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom"
 import { AuthPage } from "../../features/auth/pages/AuthPage.jsx"
-import DashboardPage from "../layouts/DashboardPage.jsx"
+import { DashboardPage } from "../layouts/DashboardPage.jsx"
 import { Users } from "../../features/users/components/Users.jsx"
-import { Field } from "../../features/fields/components/Field.jsx"
-import VerifyEmailPage from "../../features/auth/pages/VerifyEmailPage.jsx"
+import { Fields } from "../../features/fields/components/Fields.jsx"
+import { VerifyEmailPage } from "../../features/auth/pages/VerifyEmailPage.jsx"
 import { UnauthorizedPage } from "../../features/auth/pages/UnauthorizedPage.jsx"
-import { ProtectedRoutes } from "./ProtectedRoutes.jsx"
+import { ProtectedRoute } from "./ProtectedRoute.jsx"
 import { RoleGuard } from "./RoleGuard.jsx"
+import { ResetPasswordPage } from "../../features/auth/pages/ResetPasswordPage";
 
 export const AppRoutes = () => {
     return (
@@ -15,20 +16,21 @@ export const AppRoutes = () => {
             <Route path="/" element={<AuthPage />} />
             <Route path="/verify-email" element={<VerifyEmailPage />} />
             <Route path="/unauthorized" element={<UnauthorizedPage />} />
+            <Route path="/reset-password" element={<ResetPasswordPage />} />
 
             {/* PROTECTED ROUTES + ROLE */}
             <Route
                 path="/dashboard"
                 element={
-                    <ProtectedRoutes>
+                    <ProtectedRoute>
                         <RoleGuard allowedRole={["ADMIN_ROLE"]}>
                             <DashboardPage />
                         </RoleGuard>
-                    </ProtectedRoutes>
+                    </ProtectedRoute>
                 }
             >
                 <Route path="users" element={<Users />} />
-                <Route path="fields" element={<Field />} />
+                <Route path="fields" element={<Fields />} />
             </Route>
         </Routes>
     )

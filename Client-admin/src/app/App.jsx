@@ -1,23 +1,23 @@
-import { AppRoutes } from '../app/router/AppRoutes.jsx'
-import { Toaster } from 'react-hot-toast'
-import { ConfirmModal } from '../shared/components/ui/ConfirmModal.jsx'
+import { AppRoutes } from "./router/AppRoutes.jsx"
+import { Toaster } from "react-hot-toast"
+import { ConfirmModal } from "../shared/components/ui/ConfirmModal.jsx"
 
 export const App = () => {
   return (
     <>
-      <Toaster
+      <Toaster 
         position="top-center"
         toastOptions={{
           style: {
-            fontFamily: 'inherit',
+            fontFamily: "inherit",
             fontWeight: 600,
-            fontSize: '1rem',
-            borderRadius: '8px'
-          },
+            fontSize: "1rem",
+            borderRadius: "8px"
+          }
         }}
       />
       <AppRoutes />
-      <ConfirmModal />
+      <ConfirmModal/>
     </>
   )
 }

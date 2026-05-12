@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react"
 import { useUserManagmentStore } from "../store/useUserManagmentStore.js"
-import Spinner from "../../../shared/components/ui/Spinner.jsx";
+import { Spinner } from "../../../shared/components/layout/Spinner.jsx";
 import { showError, showSuccess } from "../../../shared/utils/toast.js";
 import { CreateUserModal } from "./CreateUserModal.jsx";
 import { useAuthStore } from "../../auth/store/authStore.js";
@@ -34,28 +34,31 @@ export const Users = () => {
     const filteredUsers = useMemo(() => {
         const normalizedSearch = search.trim().toLowerCase();
         return users.filter((u) => {
-            const fullName = `${u.name || ""} ${u.surname || ""}`.trim().toLowerCase();
-            const userName = u.username?.toLowerCase() || "";
-            const role = u.role?.toUpperCase() || "";
+            const fullName = `${u.name || ""} ${u.surname || ""}`
+                .trim()
+                .toLowerCase();
+
+            const username = (u.username || "").toLowerCase();
+            const role = (u.role || "").toUpperCase();
 
             const matchesSearch =
                 !normalizedSearch ||
                 fullName.includes(normalizedSearch) ||
-                userName.includes(normalizedSearch);
+                username.includes(normalizedSearch);
 
-            const matchesRole = roleFilter === "ALL" || role === roleFilter.toUpperCase();
+            const matchesRole =
+                roleFilter === "ALL" ? true : role === roleFilter.toUpperCase();
 
-
-            return matchesSearch && matchesRole;
-        });
-    }, [users, search, roleFilter]);
+            return matchesRole && matchesSearch;
+        })
+    }, [users, search, roleFilter])
 
     const totalPages = Math.max(1, Math.ceil(filteredUsers.length / PAGE_SIZE));
     const currentPage = Math.min(page, totalPages);
 
     const paginatedUsers = useMemo(() => {
-        const startIndex = (currentPage - 1) * PAGE_SIZE;
-        return filteredUsers.slice(startIndex, startIndex + PAGE_SIZE);
+        const start = (currentPage - 1) * PAGE_SIZE;
+        return filteredUsers.slice(start, start + PAGE_SIZE);
     }, [filteredUsers, currentPage])
 
     const handleCreate = async (formData) => {
@@ -110,19 +113,22 @@ export const Users = () => {
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-4 mb-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     <input
-                        placeholder="Buscar por nombre o username..."
-                        className="md:col-span-2 w-full px-3 py-2 border rounded-lg"
                         value={search}
                         onChange={(e) => {
                             setSearch(e.target.value);
                             setPage(1);
                         }}
+                        placeholder="Buscar por nombre o username..."
+                        className="md:col-span-2 w-full px-3 py-2 border rounded-lg"
                     />
-                    <select className="w-full px-3 py-2 border rounded-lg"
-                        value={roleFilter} onChange={(e) => {
-                            setRoleFilter(e.target.value);
-                            setPage(1);
-                        }}>
+                    <select
+                        value={roleFilter}
+                        onChange={(e) => {
+                            setRoleFilter(e.target.value)
+                            setPage(1)
+                        }}
+                        className="w-full px-3 py-2 border rounded-lg"
+                    >
                         <option value="ALL">Todos los roles</option>
                         <option value="ADMIN_ROLE">ADMIN_ROLE</option>
                         <option value="USER_ROLE">USER_ROLE</option>
@@ -153,7 +159,7 @@ export const Users = () => {
                                         className="px-4 py-6 text-center text-gray-500"
                                         colSpan={4}
                                     >
-                                        No hay usuarios para mostrar
+                                        No hay usuarios para mostrar.
                                     </td>
                                 </tr>
                             ) : (
@@ -196,14 +202,15 @@ export const Users = () => {
                         Mostrando {" "}
                         {(currentPage - 1) * PAGE_SIZE + (paginatedUsers.length ? 1 : 0)}
                         {" - "}
-                        {(currentPage - 1) * PAGE_SIZE + paginatedUsers.length} de {" "}
-                        {filteredUsers.length} usuarios
+                        {(currentPage - 1) * PAGE_SIZE + paginatedUsers.length} de{" "}
+                        {filteredUsers.length}
                     </p>
 
                     <div className="flex gap-2">
-                        <button className="px-3 py-1.5 rounded border bg-white text-sm cursor-pointer"
-                            disabled={currentPage === 1}
+                        <button
                             onClick={() => setPage((p) => Math.max(1, p - 1))}
+                            disabled={currentPage === 1}
+                            className="px-3 py-1.5 rounded border bg-white text-sm"
                         >
                             Anterior
                         </button>
@@ -212,9 +219,10 @@ export const Users = () => {
                             {currentPage} / {totalPages}
                         </span>
 
-                        <button className="px-3 py-1.5 rounded border bg-white text-sm cursor-pointer"
-                            disabled={currentPage === totalPages}
+                        <button
                             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+                            disabled={currentPage === totalPages}
+                            className="px-3 py-1.5 rounded border bg-white text-sm"
                         >
                             Siguiente
                         </button>

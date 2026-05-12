@@ -1,5 +1,5 @@
 import { toast } from "react-hot-toast";
- 
+
 // Colores y estilos personalizados
 const baseStyle = {
   borderRadius: "8px",
@@ -9,7 +9,7 @@ const baseStyle = {
   padding: "16px 24px",
   boxShadow: "0 2px 16px 0 rgba(0,0,0,0.08)",
 };
- 
+
 export const showSuccess = (message) =>
   toast.success(message, {
     style: {
@@ -23,7 +23,7 @@ export const showSuccess = (message) =>
       secondary: "#fff",
     },
   });
- 
+
 export const showError = (message) =>
   toast.error(message, {
     style: {
@@ -37,7 +37,7 @@ export const showError = (message) =>
       secondary: "#fff",
     },
   });
- 
+
 export const showInfo = (message) =>
   toast(message, {
     style: {
